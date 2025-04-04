@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-function SearchBox({}){
+
+function SearchBox(){
     const [query,setQuery]=useState('');
     const navigate = useNavigate();
 
